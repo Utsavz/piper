@@ -72,6 +72,10 @@ To plot the success rate performances, use the following scripts:
 ### 5). Results: Success rate performance
 Here we provide the success rate performance results for various environments:
 
+  <p align="center">
+    <img src="figs/legend_success.png" width="300">
+  </p>
+
   #### Maze navigation environment
 
   <p align="center">
