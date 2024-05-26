@@ -2,7 +2,7 @@
 ### Code repository for PIPER
 
 <p align="center">
-  <img src="figs/piper_method.jpg" width="500">
+  <img src="figs/piper_method.jpg" width="800">
 </p>
 
 This is a tensorflow based implementation for our approach PIPER: Primitive-Informed Preference-based Hierarchical Reinforcement Learning via Hindsight Relabeling, a novel approach that leverages preference-based learning to mitigate the issues of non-stationarity and infeasible subgoal generation in hierarchical reinforcement learning.
