@@ -111,7 +111,7 @@ def make_sample_her_transitions(replay_strategy, replay_k, reward_fun, hrl_scope
             reward_params_1['ag_2'] = transitions['reward_ag_2_1']
             reward_params_1['g'] = transitions['reward_g_1']
             reward_params_1['info'] = None
-            reward_params_1['reward_type'] = 'dense'
+            reward_params_1['reward_type'] = 'sparse'
             transitions['reward_r_1'] = reward_fun(**reward_params_1)
             transitions['reward_r_1'] = transitions['reward_r_1'].reshape(transitions['reward_r_1'].shape[0], transitions['reward_r_1'].shape[1], 1)
 
@@ -119,7 +119,7 @@ def make_sample_her_transitions(replay_strategy, replay_k, reward_fun, hrl_scope
             reward_params_2['ag_2'] = transitions['reward_ag_2_2']
             reward_params_2['g'] = transitions['reward_g_2']
             reward_params_2['info'] = None
-            reward_params_2['reward_type'] = 'dense'
+            reward_params_2['reward_type'] = 'sparse'
             transitions['reward_r_2'] = reward_fun(**reward_params_2)
             transitions['reward_r_2'] = transitions['reward_r_2'].reshape(transitions['reward_r_2'].shape[0], transitions['reward_r_2'].shape[1], 1)
 
