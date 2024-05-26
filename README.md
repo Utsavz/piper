@@ -30,6 +30,9 @@ To run the demo, use the following scripts:
   # For Push environment
   python experiment/play.py --dir=push_piper_0 --render=1 --rollouts=10
 
+  # For Hollow environment
+  python experiment/play.py --dir=hollow_piper_0 --render=1 --rollouts=10
+
   # For Franka kitchen environment
   python experiment/play.py --dir=kitchen_piper_0 --render=1 --rollouts=10
 
@@ -47,6 +50,9 @@ To train, use the following scripts. For baselines, change the parameters accord
   # For push environment
   python experiment/train.py --env="FetchPush-v1" --logdir="push_piper_0" --n_epochs=13000 --reward_batch_size=50 --seed=0 --bc_loss=1 --num_hrl_layers=2 --reward_model=1 --q_reg=1
 
+  # For hollow environment
+  python experiment/train.py --env="FetchPickAndPlaceHollow-v1" --logdir="fetchPickHollow_rlhf_q_reg_0" --n_epochs=60000 --reward_batch_size=100 --seed=0 --bc_loss=1 --num_hrl_layers=2 --reward_model=1 --q_reg=1
+
   # For Franka kitchen environment
   python experiment/train.py --env="kitchen-complete-v0" --logdir="kitchen_piper_0" --n_epochs=3000 --reward_batch_size=50 --seed=0 --bc_loss=1 --num_hrl_layers=2 --reward_model=1 --q_reg=1
 
@@ -63,6 +69,9 @@ To plot the success rate performances, use the following scripts:
 
   # For Push environment
   python experiment/plot.py --dir1=push_piper_0:piper --plot_name="push"
+
+  # For hollow environment
+  python experiment/plot.py --dir1=hollow_piper_0:piper --plot_name="hollow"
 
   # For Franka kitchen environment
   python experiment/plot.py --dir1=kitchen_piper_0:piper --plot_name="kitchen"
