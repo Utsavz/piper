@@ -1,0 +1,670 @@
+<mujoco>
+		<body name="object0" pos="-51.07 0. 0.5">
+			<joint damping="0.01" limited="false" name="object0:joint" type="free" />
+			<geom mass="1000000" material="" name="object0" rgba="0.7 0.5 0.3 1.0" size="1.0 1.0 1.0" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object0" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+        <body name="object1" pos="-51.07 0. 0.5">
+			<joint damping="0.01" limited="false" name="object1:joint" type="free" />
+			<geom mass="1000000" material="" name="object1" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object1" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object2" pos="-51.07 0.05 0.5">
+			<joint damping="0.01" limited="false" name="object2:joint" type="free" />
+			<geom mass="1000000" material="" name="object2" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object2" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object3" pos="-51.07 0.1 0.5">
+			<joint damping="0.01" limited="false" name="object3:joint" type="free" />
+			<geom mass="1000000" material="" name="object3" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object3" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object4" pos="-51.07 0.15 0.5">
+			<joint damping="0.01" limited="false" name="object4:joint" type="free" />
+			<geom mass="1000000" material="" name="object4" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object4" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object5" pos="-51.07 0.2 0.5">
+			<joint damping="0.01" limited="false" name="object5:joint" type="free" />
+			<geom mass="1000000" material="" name="object5" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object5" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object6" pos="-51.07 0.25 0.5">
+			<joint damping="0.01" limited="false" name="object6:joint" type="free" />
+			<geom mass="1000000" material="" name="object6" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object6" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object7" pos="-51.07 0.3 0.5">
+			<joint damping="0.01" limited="false" name="object7:joint" type="free" />
+			<geom mass="1000000" material="" name="object7" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object7" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object8" pos="-51.07 0.35 0.5">
+			<joint damping="0.01" limited="false" name="object8:joint" type="free" />
+			<geom mass="1000000" material="" name="object8" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object8" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object9" pos="-51.07 0.4 0.5">
+			<joint damping="0.01" limited="false" name="object9:joint" type="free" />
+			<geom mass="1000000" material="" name="object9" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object9" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object10" pos="-51.07 0.45 0.5">
+			<joint damping="0.01" limited="false" name="object10:joint" type="free" />
+			<geom mass="1000000" material="" name="object10" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object10" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+        <body name="object11" pos="-51.07 0.50 0.5">
+			<joint damping="0.01" limited="false" name="object11:joint" type="free" />
+			<geom mass="1000000" material="" name="object11" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object11" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object12" pos="-51.2 0.55 0.5">
+			<joint damping="0.01" limited="false" name="object12:joint" type="free" />
+			<geom mass="1000000" material="" name="object12" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object12" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object13" pos="-51.07 0.60 0.5">
+			<joint damping="0.01" limited="false" name="object13:joint" type="free" />
+			<geom mass="1000000" material="" name="object13" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object13" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object14" pos="-51.07 0.650 0.5">
+			<joint damping="0.01" limited="false" name="object14:joint" type="free" />
+			<geom mass="1000000" material="" name="object14" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object14" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object15" pos="-51.07 0.7 0.5">
+			<joint damping="0.01" limited="false" name="object15:joint" type="free" />
+			<geom mass="1000000" material="" name="object15" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object15" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object16" pos="-51.07 0.8 0.5">
+			<joint damping="0.01" limited="false" name="object16:joint" type="free" />
+			<geom mass="1000000" material="" name="object16" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object16" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object17" pos="-51.07 0.85 0.5">
+			<joint damping="0.01" limited="false" name="object17:joint" type="free" />
+			<geom mass="1000000" material="" name="object17" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object17" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object18" pos="-51.07 0.9 0.5">
+			<joint damping="0.01" limited="false" name="object18:joint" type="free" />
+			<geom mass="1000000" material="" name="object18" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object18" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object19" pos="-51.07 0.9 0.5">
+			<joint damping="0.01" limited="false" name="object19:joint" type="free" />
+			<geom mass="1000000" material="" name="object19" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object19" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object20" pos="-51.07 0.95 0.5">
+			<joint damping="0.01" limited="false" name="object20:joint" type="free" />
+			<geom mass="1000000" material="" name="object20" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object20" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+        <body name="object21" pos="-51.07 1.00 0.5">
+			<joint damping="0.01" limited="false" name="object21:joint" type="free" />
+			<geom mass="1000000" material="" name="object21" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object21" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object22" pos="-51.2 0. 0.5">
+			<joint damping="0.01" limited="false" name="object22:joint" type="free" />
+			<geom mass="1000000" material="" name="object22" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object22" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object23" pos="-51.2 0.5 0.5">
+			<joint damping="0.01" limited="false" name="object23:joint" type="free" />
+			<geom mass="1000000" material="" name="object23" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object23" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object24" pos="-51.2 0.100 0.5">
+			<joint damping="0.01" limited="false" name="object24:joint" type="free" />
+			<geom mass="1000000" material="" name="object24" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object24" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object25" pos="-51.2 0.15 0.5">
+			<joint damping="0.01" limited="false" name="object25:joint" type="free" />
+			<geom mass="1000000" material="" name="object25" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object25" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object26" pos="-51.2 0.20 0.5">
+			<joint damping="0.01" limited="false" name="object26:joint" type="free" />
+			<geom mass="1000000" material="" name="object26" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object26" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object27" pos="-51.2 0.250 0.5">
+			<joint damping="0.01" limited="false" name="object27:joint" type="free" />
+			<geom mass="1000000" material="" name="object27" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object27" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object28" pos="-51.2 0.3 0.5">
+			<joint damping="0.01" limited="false" name="object28:joint" type="free" />
+			<geom mass="1000000" material="" name="object28" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object28" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object29" pos="-51.2 0.35 0.5">
+			<joint damping="0.01" limited="false" name="object29:joint" type="free" />
+			<geom mass="1000000" material="" name="object29" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object29" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object30" pos="-51.2 0.4 0.5">
+			<joint damping="0.01" limited="false" name="object30:joint" type="free" />
+			<geom mass="1000000" material="" name="object30" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object30" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+        <body name="object31" pos="-51.2 0.45 0.5">
+			<joint damping="0.01" limited="false" name="object31:joint" type="free" />
+			<geom mass="1000000" material="" name="object31" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object31" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object32" pos="-51.2 0.5 0.5">
+			<joint damping="0.01" limited="false" name="object32:joint" type="free" />
+			<geom mass="1000000" material="" name="object32" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object32" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object33" pos="-51.2 0.55 0.5">
+			<joint damping="0.01" limited="false" name="object33:joint" type="free" />
+			<geom mass="1000000" material="" name="object33" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object33" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object34" pos="-51.2 0.6 0.5">
+			<joint damping="0.01" limited="false" name="object34:joint" type="free" />
+			<geom mass="1000000" material="" name="object34" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object34" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object35" pos="-51.2 0.65 0.5">
+			<joint damping="0.01" limited="false" name="object35:joint" type="free" />
+			<geom mass="1000000" material="" name="object35" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object35" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object36" pos="-51.2 0.7 0.5">
+			<joint damping="0.01" limited="false" name="object36:joint" type="free" />
+			<geom mass="1000000" material="" name="object36" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object36" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object37" pos="-51.2 0.75 0.5">
+			<joint damping="0.01" limited="false" name="object37:joint" type="free" />
+			<geom mass="1000000" material="" name="object37" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object37" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object38" pos="-51.2 0.8 0.5">
+			<joint damping="0.01" limited="false" name="object38:joint" type="free" />
+			<geom mass="1000000" material="" name="object38" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object38" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object39" pos="-51.2 0.85 0.5">
+			<joint damping="0.01" limited="false" name="object39:joint" type="free" />
+			<geom mass="1000000" material="" name="object39" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object39" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object40" pos="-51.2 0.9 0.5">
+			<joint damping="0.01" limited="false" name="object40:joint" type="free" />
+			<geom mass="1000000" material="" name="object40" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object40" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		
+		      
+        <body name="object41" pos="-51.2 0.95 0.5">
+			<joint damping="0.01" limited="false" name="object41:joint" type="free" />
+			<geom mass="1000000" material="" name="object41" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object41" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object42" pos="-51.2 1.0 0.5">
+			<joint damping="0.01" limited="false" name="object42:joint" type="free" />
+			<geom mass="1000000" material="" name="object42" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object42" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object43" pos="-51.25 0.0 0.5">
+			<joint damping="0.01" limited="false" name="object43:joint" type="free" />
+			<geom mass="1000000" material="" name="object43" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object43" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object44" pos="-51.25 0.5 0.5">
+			<joint damping="0.01" limited="false" name="object44:joint" type="free" />
+			<geom mass="1000000" material="" name="object44" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object44" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object45" pos="-51.25 0.1 0.5">
+			<joint damping="0.01" limited="false" name="object45:joint" type="free" />
+			<geom mass="1000000" material="" name="object45" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object45" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object46" pos="-51.25 0.15 0.5">
+			<joint damping="0.01" limited="false" name="object46:joint" type="free" />
+			<geom mass="1000000" material="" name="object46" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object46" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object47" pos="-51.25 0.2 0.5">
+			<joint damping="0.01" limited="false" name="object47:joint" type="free" />
+			<geom mass="1000000" material="" name="object47" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object47" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object48" pos="-51.25 0.25 0.5">
+			<joint damping="0.01" limited="false" name="object48:joint" type="free" />
+			<geom mass="1000000" material="" name="object48" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object48" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object49" pos="-51.25 0.3 0.5">
+			<joint damping="0.01" limited="false" name="object49:joint" type="free" />
+			<geom mass="1000000" material="" name="object49" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object49" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object50" pos="-51.25 0.35 0.5">
+			<joint damping="0.01" limited="false" name="object50:joint" type="free" />
+			<geom mass="1000000" material="" name="object50" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object50" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+        <body name="object51" pos="-51.25 0.4 0.5">
+			<joint damping="0.01" limited="false" name="object51:joint" type="free" />
+			<geom mass="1000000" material="" name="object51" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object51" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object52" pos="-51.25 0.45 0.5">
+			<joint damping="0.01" limited="false" name="object52:joint" type="free" />
+			<geom mass="1000000" material="" name="object52" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object52" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object53" pos="-51.25 0.5 0.5">
+			<joint damping="0.01" limited="false" name="object53:joint" type="free" />
+			<geom mass="1000000" material="" name="object53" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object53" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object54" pos="-51.25 0.55 0.5">
+			<joint damping="0.01" limited="false" name="object54:joint" type="free" />
+			<geom mass="1000000" material="" name="object54" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object54" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object55" pos="-51.25 0.6 0.5">
+			<joint damping="0.01" limited="false" name="object55:joint" type="free" />
+			<geom mass="1000000" material="" name="object55" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object55" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object56" pos="-51.25 0.65 0.5">
+			<joint damping="0.01" limited="false" name="object56:joint" type="free" />
+			<geom mass="1000000" material="" name="object56" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object56" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object57" pos="-51.25 0.75 0.5">
+			<joint damping="0.01" limited="false" name="object57:joint" type="free" />
+			<geom mass="1000000" material="" name="object57" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object57" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object58" pos="-51.25 0.8 0.5">
+			<joint damping="0.01" limited="false" name="object58:joint" type="free" />
+			<geom mass="1000000" material="" name="object58" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object58" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object59" pos="-51.3 -0.05 0.5">
+			<joint damping="0.01" limited="false" name="object59:joint" type="free" />
+			<geom mass="1000000" material="" name="object59" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object59" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object60" pos="-51.3 -0.1 0.5">
+			<joint damping="0.01" limited="false" name="object60:joint" type="free" />
+			<geom mass="1000000" material="" name="object60" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object60" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object61" pos="-51.3 -0.15 0.5">
+			<joint damping="0.01" limited="false" name="object61:joint" type="free" />
+			<geom mass="1000000" material="" name="object61" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object61" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object62" pos="-51.3 -0.2 0.5">
+			<joint damping="0.01" limited="false" name="object62:joint" type="free" />
+			<geom mass="1000000" material="" name="object62" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object62" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object63" pos="-51.3 -0.25 0.5">
+			<joint damping="0.01" limited="false" name="object63:joint" type="free" />
+			<geom mass="1000000" material="" name="object63" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object63" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object64" pos="-51.3 -0.3 0.5">
+			<joint damping="0.01" limited="false" name="object64:joint" type="free" />
+			<geom mass="1000000" material="" name="object64" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object64" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object65" pos="-51.3 -0.35 0.5">
+			<joint damping="0.01" limited="false" name="object65:joint" type="free" />
+			<geom mass="1000000" material="" name="object65" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object65" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object66" pos="-51.3 -0.4 0.5">
+			<joint damping="0.01" limited="false" name="object66:joint" type="free" />
+			<geom mass="1000000" material="" name="object66" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object66" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object67" pos="-51.3 -0.45 0.5">
+			<joint damping="0.01" limited="false" name="object67:joint" type="free" />
+			<geom mass="1000000" material="" name="object67" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object67" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object68" pos="-51.3 -0.5 0.5">
+			<joint damping="0.01" limited="false" name="object68:joint" type="free" />
+			<geom mass="1000000" material="" name="object68" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object68" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object69" pos="-51.3 -0.55 0.5">
+			<joint damping="0.01" limited="false" name="object69:joint" type="free" />
+			<geom mass="1000000" material="" name="object69" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object69" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object70" pos="-51.3 -0.6 0.5">
+			<joint damping="0.01" limited="false" name="object70:joint" type="free" />
+			<geom mass="1000000" material="" name="object70" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object70" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+        <body name="object71" pos="-51.3 -0.65 0.5">
+			<joint damping="0.01" limited="false" name="object71:joint" type="free" />
+			<geom mass="1000000" material="" name="object71" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object71" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object72" pos="-51.3 -0.7 0.5">
+			<joint damping="0.01" limited="false" name="object72:joint" type="free" />
+			<geom mass="1000000" material="" name="object72" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object72" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object73" pos="-51.3 -0.75 0.5">
+			<joint damping="0.01" limited="false" name="object73:joint" type="free" />
+			<geom mass="1000000" material="" name="object73" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object73" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object74" pos="-51.3 -0.8 0.5">
+			<joint damping="0.01" limited="false" name="object74:joint" type="free" />
+			<geom mass="1000000" material="" name="object74" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object74" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object75" pos="-51.3 -0.85 0.5">
+			<joint damping="0.01" limited="false" name="object75:joint" type="free" />
+			<geom mass="1000000" material="" name="object75" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object75" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object76" pos="-51.3 -0.9 0.5">
+			<joint damping="0.01" limited="false" name="object76:joint" type="free" />
+			<geom mass="1000000" material="" name="object76" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object76" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object77" pos="-51.3 -0.95 0.5">
+			<joint damping="0.01" limited="false" name="object77:joint" type="free" />
+			<geom mass="1000000" material="" name="object77" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object77" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object78" pos="-51.3 -1.0 0.5">
+			<joint damping="0.01" limited="false" name="object78:joint" type="free" />
+			<geom mass="1000000" material="" name="object78" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object78" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object79" pos="-51.35 -0.5 0.5">
+			<joint damping="0.01" limited="false" name="object79:joint" type="free" />
+			<geom mass="1000000" material="" name="object79" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object79" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object80" pos="-51.35 -0.1 0.5">
+			<joint damping="0.01" limited="false" name="object80:joint" type="free" />
+			<geom mass="1000000" material="" name="object80" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object80" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+        <body name="object81" pos="-51.35 -0.15 0.5">
+			<joint damping="0.01" limited="false" name="object81:joint" type="free" />
+			<geom mass="1000000" material="" name="object81" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object81" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object82" pos="-51.35 -0.2 0.5">
+			<joint damping="0.01" limited="false" name="object82:joint" type="free" />
+			<geom mass="1000000" material="" name="object82" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object82" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object83" pos="-51.35 -0.25 0.5">
+			<joint damping="0.01" limited="false" name="object83:joint" type="free" />
+			<geom mass="1000000" material="" name="object83" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object83" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object84" pos="-51.35 -0.3 0.5">
+			<joint damping="0.01" limited="false" name="object84:joint" type="free" />
+			<geom mass="1000000" material="" name="object84" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object84" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object85" pos="-51.35 -0.35 0.5">
+			<joint damping="0.01" limited="false" name="object85:joint" type="free" />
+			<geom mass="1000000" material="" name="object85" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object85" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object86" pos="-51.35 -0.4 0.5">
+			<joint damping="0.01" limited="false" name="object86:joint" type="free" />
+			<geom mass="1000000" material="" name="object86" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object86" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object87" pos="-51.35 -0.450 0.5">
+			<joint damping="0.01" limited="false" name="object87:joint" type="free" />
+			<geom mass="1000000" material="" name="object87" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object87" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object88" pos="-51.35 -0.5 0.5">
+			<joint damping="0.01" limited="false" name="object88:joint" type="free" />
+			<geom mass="1000000" material="" name="object88" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object88" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object89" pos="-51.35 -0.550 0.5">
+			<joint damping="0.01" limited="false" name="object89:joint" type="free" />
+			<geom mass="1000000" material="" name="object89" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object89" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object90" pos="-51.35 -0.6 0.5">
+			<joint damping="0.01" limited="false" name="object90:joint" type="free" />
+			<geom mass="1000000" material="" name="object90" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object90" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+        <body name="object91" pos="-51.35 -0.65 0.5">
+			<joint damping="0.01" limited="false" name="object91:joint" type="free" />
+			<geom mass="1000000" material="" name="object91" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object91" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object92" pos="-51.35 -0.7 0.5">
+			<joint damping="0.01" limited="false" name="object92:joint" type="free" />
+			<geom mass="1000000" material="" name="object92" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object92" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object93" pos="-51.35 -0.75 0.5">
+			<joint damping="0.01" limited="false" name="object93:joint" type="free" />
+			<geom mass="1000000" material="" name="object93" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object93" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object94" pos="-51.35 -0.8 0.5">
+			<joint damping="0.01" limited="false" name="object94:joint" type="free" />
+			<geom mass="1000000" material="" name="object94" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object94" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object95" pos="-51.35 -0.850 0.5">
+			<joint damping="0.01" limited="false" name="object95:joint" type="free" />
+			<geom mass="1000000" material="" name="object95" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object95" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object96" pos="-51.35 -0.9 0.5">
+			<joint damping="0.01" limited="false" name="object96:joint" type="free" />
+			<geom mass="1000000" material="" name="object96" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object96" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object97" pos="-51.35 -0.95 0.5">
+			<joint damping="0.01" limited="false" name="object97:joint" type="free" />
+			<geom mass="1000000" material="" name="object97" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object97" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object98" pos="-51.35 -1 0.5">
+			<joint damping="0.01" limited="false" name="object98:joint" type="free" />
+			<geom mass="1000000" material="" name="object98" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object98" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object99" pos="-51.4 -0.0 0.5">
+			<joint damping="0.01" limited="false" name="object99:joint" type="free" />
+			<geom mass="1000000" material="" name="object99" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object99" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object100" pos="-51.4 -0.5 0.5">
+			<joint damping="0.01" limited="false" name="object100:joint" type="free" />
+			<geom mass="1000000" material="" name="object100" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object100" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+			<body name="object101" pos="-51.4 -0.1 0.5">
+			<joint damping="0.01" limited="false" name="object101:joint" type="free" />
+			<geom mass="1000000" material="" name="object101" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object101" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object102" pos="-51.4 -0.15 0.5">
+			<joint damping="0.01" limited="false" name="object102:joint" type="free" />
+			<geom mass="1000000" material="" name="object102" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object102" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object103" pos="-51.4 -0.2 0.5">
+			<joint damping="0.01" limited="false" name="object103:joint" type="free" />
+			<geom mass="1000000" material="" name="object103" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object103" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object104" pos="-51.4 -0.25 0.5">
+			<joint damping="0.01" limited="false" name="object104:joint" type="free" />
+			<geom mass="1000000" material="" name="object104" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object104" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object105" pos="-51.4 -0.3 0.5">
+			<joint damping="0.01" limited="false" name="object105:joint" type="free" />
+			<geom mass="1000000" material="" name="object105" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object105" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object106" pos="-51.4 -0.35 0.5">
+			<joint damping="0.01" limited="false" name="object106:joint" type="free" />
+			<geom mass="1000000" material="" name="object106" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object106" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object107" pos="-51.4 -0.4 0.5">
+			<joint damping="0.01" limited="false" name="object107:joint" type="free" />
+			<geom mass="1000000" material="" name="object107" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object107" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object108" pos="-51.4 -0.450 0.5">
+			<joint damping="0.01" limited="false" name="object108:joint" type="free" />
+			<geom mass="1000000" material="" name="object108" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object108" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object109" pos="-51.4 -0.5 0.5">
+			<joint damping="0.01" limited="false" name="object109:joint" type="free" />
+			<geom mass="1000000" material="" name="object109" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object109" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+		<body name="object110" pos="-51.4 -0.55 0.5">
+			<joint damping="0.01" limited="false" name="object110:joint" type="free" />
+			<geom mass="1000000" material="" name="object110" rgba="0.7 0.5 0.3 1.0" size="1.25 1.25 0.625" solimp="1.0 1.0 0.01" solref="0.01 1" type="box" />
+            
+			<site name="site:object110" pos="0 0 0" rgba="1 0 0 1" size="0.0125 0.0125 0.0125" type="sphere" />
+		</body>
+</mujoco>

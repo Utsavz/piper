@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco>
+	<compiler angle="radian" coordinate="local" meshdir="../stls/fetch" texturedir="../textures"></compiler>
+	<option timestep="0.002">
+		<flag warmstart="enable"></flag>
+	</option>
+	<!-- <size njmax="8500" nconmax="4500"></size> -->
+	<size njmax="5000" nconmax="3500"></size>
+	<include file="shared.xml"></include>
+	
+	<worldbody>
+		<geom name="floor0" pos="0.8 0.75 0" size="0.85 0.7 1" type="plane" condim="3" material="floor_mat"></geom>
+		<body name="floor0" pos="0.8 0.75 0">
+			<site name="target0" pos="0 0 0.5" size="0.02 0.02 0.02" rgba="1 0 0 1" type="sphere"></site>
+			<site name = "subgoal_0" type="sphere" pos="0 0 0.5" size="0.025" rgba="1 0 1 0" /><!-- Subgoal 1: Purple -->
+	        <site name = "subgoal_1" type="sphere" pos="0 0 0.5" size="0.025" rgba="0 1 0 0" /><!-- Subgoal 2: Green -->
+	        <site name = "subgoal_2" type="sphere" pos="0 0 0.5" size="0.025" rgba="0.5 0.5 0.5 0" /><!-- Subgoal 3: Gray -->
+	        <site name = "subgoal_3" type="sphere" pos="0 0 0.5" size="0.025" rgba="1 1 1 0" /><!-- Subgoal 4: White -->
+	        <site name = "subgoal_4" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0 0 0" /><!-- Subgoal 5: Black -->
+		</body>
+
+		<include file="robot.xml"></include>
+		
+		<body pos="1.3 0.75 0.2" name="table0">
+			<geom size="0.245 0.281 0.2" type="box" mass="2000" material="table_mat"></geom>
+			<body name="tray" pos = "-0.0 -0.23 0.2">
+                <!-- <geom name="tray_base" size="0.4060 0.120 0.001" type="box" mass="300" material="tray_mat"></geom> -->
+                <geom name="mark" conaffinity="0" contype="0" size="0.02" pos="0 0 1.2" rgba="0 0 0 0.5" type="sphere" group="2"></geom>
+                <geom size="0.250 0.002 0.03" type="box" mass="300" pos="0 0.512 0.01" material="tray_mat"></geom>
+                <geom size="0.250 0.002 0.03" type="box" mass="300" pos="0 -0.05 0.01" material="tray_mat"></geom>
+                <geom size="0.002 0.28 0.03" type="box" mass="300" pos="0.250 0.23 0.01" material="tray_mat"></geom>
+                <geom size="0.002 0.28 0.03" type="box" mass="300" pos="-0.250 0.23 0.01" material="tray_mat"></geom>
+                <!-- <geom conaffinity="0" contype="0" pos="0 0.215 0" size="0.15 0.09 0.1" type="box" rgba="1 0 0 0.3" group="2"></geom> -->
+            </body>
+		</body>
+		
+		<body name="object0" pos="0.025 0.025 0.025">
+			<joint name="object0:joint" type="free" damping="0.01"></joint>
+			<geom size="0.025 0.025 0.025" type="box" condim="3" name="object0" material="block_mat" mass="2"></geom>
+			<site name="object0" pos="0 0 0" size="0.02 0.02 0.02" rgba="1 0 0 1" type="sphere"></site>
+		</body>
+
+		<!-- <body name="solid1wall" pos="0.731 0.778 0.025" euler = "0 0 0">
+			<joint name="solid1wall" type="free" damping="0.01"></joint>
+			<geom pos="0 0 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.032 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.064 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.096 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.128 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.160 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.192 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.224 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.256 0"  mass = "10000000" class="wall"/>
+		</body>
+
+		<body name="solid2wall" pos="0.868 0.583 0.025">
+			<joint name="solid2wall" type="free" damping="0.01"></joint>
+			<geom pos="0 0 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.032 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.064 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.096 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.128 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.160 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.192 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.224 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.256 0"  mass = "10000000" class="wall"/>
+		</body>
+
+		<body name="hollow1wall" pos="1.27 0.35 0.025">
+			<joint name="hollow1wall" type="free" damping="0.01"></joint>
+			<geom pos="0 0 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.032 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.160 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.192 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.224 0"  mass = "10000000" class="wall"/>
+		</body>
+
+		<body name="hollow2wall" pos="1.27 0.35 0.025">
+			<joint name="hollow2wall" type="free" damping="0.01"></joint>
+			<geom pos="0 0 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.032 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.160 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.192 0"  mass = "10000000" class="wall"/>
+		</body>
+
+		<body name="hollow3wall" pos="1.27 0.35 0.025">
+			<joint name="hollow3wall" type="free" damping="0.01"></joint>
+			<geom pos="0 0 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.032 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.160 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.192 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.224 0"  mass = "10000000" class="wall"/>
+		</body>
+
+		<body name="hollow4wall" pos="1.27 0.35 0.025">
+			<joint name="hollow4wall" type="free" damping="0.01"></joint>
+			<geom pos="0 0 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.032 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.064 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.192 0"  mass = "10000000" class="wall"/>
+			<geom pos="0 -0.224 0"  mass = "10000000" class="wall"/>
+		</body>
+
+		<body name="door1" pos="1.27 0.35 0.025">
+			<joint name="door1" type="free" damping="0.01"></joint>
+			<geom pos="0 0 0"  mass = "10000000" class="wall2"/>
+			<geom pos="-0.032 0 0"  mass = "10000000" class="wall2"/>
+		</body>
+
+		<body name="door2" pos="1.27 0.35 0.025">
+			<joint name="door2" type="free" damping="0.01"></joint>
+			<geom pos="0 0 0"  mass = "10000000" class="wall2"/>
+			<geom pos="0 -0.032 0"  mass = "10000000" class="wall2"/>
+		</body> -->
+
+		<light directional="true" ambient="0.2 0.2 0.2" diffuse="0.8 0.8 0.8" specular="0.3 0.3 0.3" castshadow="false" pos="0 0 4" dir="0 0 -1" name="light0"></light>
+	</worldbody>
+
+	<actuator>
+		<position ctrllimited="true" ctrlrange="0 0.2" joint="robot0:l_gripper_finger_joint" kp="30000" name="robot0:l_gripper_finger_joint" user="1"></position>
+		<position ctrllimited="true" ctrlrange="0 0.2" joint="robot0:r_gripper_finger_joint" kp="30000" name="robot0:r_gripper_finger_joint" user="1"></position>
+	</actuator>
+</mujoco>

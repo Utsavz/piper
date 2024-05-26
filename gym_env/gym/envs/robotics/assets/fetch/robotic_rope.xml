@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco>
+	<compiler angle="radian" coordinate="local" meshdir="../stls/fetch" texturedir="../textures"></compiler>
+	<option timestep="0.002">
+		<flag warmstart="enable"></flag>
+	</option>
+	<!-- <size njmax="8500" nconmax="4500"></size> -->
+	<!-- <size njmax="5000" nconmax="3500"></size> -->
+	<include file="shared.xml"></include>
+	
+	<worldbody>
+		<geom name="floor0" pos="0.8 0.75 0" size="0.85 0.7 1" type="plane" condim="3" material="floor_mat"></geom>
+		<body name="floor0" pos="0.8 0.75 0">
+			<site name="target0" pos="0 0 0.5" size="0.02 0.02 0.02" rgba="1 0 0 0" type="sphere"></site>
+			<site name = "subgoal_0" type="sphere" pos="0 0 0.5" size="0.015" rgba="0 0 0 0" /><!-- Subgoal 1: Purple -->
+	        <site name = "subgoal_1" type="sphere" pos="0 0 0.5" size="0.025" rgba="0 0.2 1 0" /><!-- Subgoal 2: Green -->
+	        <site name = "subgoal_2" type="sphere" pos="0 0 0.5" size="0.015" rgba="0.5 0.5 0.5 0" /><!-- Subgoal 3: Gray -->
+	        <site name = "subgoal_3" type="sphere" pos="0 0 0.5" size="0.025" rgba="1 1 1 0" /><!-- Subgoal 4: White -->
+	        <site name = "subgoal_4" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0 0 0" /><!-- Subgoal 5: Blck -->
+	        <site name = "subgoal_5" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_6" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_7" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_8" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_9" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_10" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_11" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_12" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_13" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_14" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_15" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_16" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_17" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_18" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_19" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+
+	        <site name = "subgoal_20" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_21" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_22" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_23" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_24" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_25" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_26" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_27" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_28" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_29" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_30" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_31" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_32" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_33" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_34" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+
+	        <site name = "subgoal_35" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_36" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_37" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_38" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_39" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_40" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_41" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_42" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_43" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_44" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_45" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_46" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_47" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_48" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_49" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+
+
+	        <site name = "subgoal_50" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_51" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_52" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_53" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_54" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_55" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_56" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_57" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_58" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_59" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_60" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_61" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_62" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_63" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_64" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+
+
+	        <site name = "subgoal_65" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_66" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_67" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_68" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_69" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_70" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_71" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_72" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_73" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_74" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_75" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_76" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_77" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_78" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_79" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+
+
+	        <site name = "subgoal_80" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_81" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_82" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_83" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_84" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_85" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_86" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_87" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_88" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_89" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_90" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_91" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_92" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_93" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_94" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+
+	        <site name = "subgoal_95" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_96" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_97" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_98" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_99" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_100" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_101" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_102" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_103" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_104" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_105" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_106" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_107" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_108" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_109" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+
+	        <site name = "subgoal_110" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_111" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_112" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_113" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_114" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_115" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_116" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_117" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_118" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_119" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_120" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_121" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_122" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_123" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_124" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 0.2 1 0" /><!-- Subgoal 5: Green -->
+
+	        <site name = "subgoal_goal_5" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_goal_6" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_goal_7" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_goal_8" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_goal_9" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_goal_10" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_goal_11" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_goal_12" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_goal_13" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_goal_14" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_goal_15" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_goal_16" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_goal_17" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_goal_18" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_goal_19" type="sphere" pos="0 0 0.5" size="0.01" rgba="1 0 0 0" /><!-- Subgoal 5: Green -->
+
+	        <site name = "subgoal_subgoal_5" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal_6" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal_7" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal_8" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal_9" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal_10" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal_11" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal_12" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal_13" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal_14" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal_15" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal_16" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal_17" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal_18" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal_19" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+
+	        <site name = "subgoal_subgoal2_20" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal2_21" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal2_22" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal2_23" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal2_24" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal2_25" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal2_26" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal2_27" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal2_28" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal2_29" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal2_30" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal2_31" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal2_32" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal2_33" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+	        <site name = "subgoal_subgoal2_34" type="sphere" pos="0 0 0.5" size="0.01" rgba="0 1 0 0" /><!-- Subgoal 5: Green -->
+		</body>
+
+		
+
+		<include file="robot.xml"></include>
+		
+		<body pos="1.3 0.75 0.2" name="table0">
+			<geom size="0.245 0.281 0.2" type="box" mass="2000" material="table_mat"></geom>
+			<body name="tray" pos = "-0.0 -0.23 0.2">
+                <!-- <geom name="tray_base" size="0.4060 0.120 0.001" type="box" mass="300" material="tray_mat"></geom> -->
+                <geom name="mark" conaffinity="0" contype="0" size="0.02" pos="0 0 1.2" rgba="0 0 0 0.5" type="sphere" group="2"></geom>
+                <geom size="0.250 0.002 0.03" type="box" mass="300" pos="0 0.512 0.01" material="tray_mat"></geom>
+                <geom size="0.250 0.002 0.03" type="box" mass="300" pos="0 -0.05 0.01" material="tray_mat"></geom>
+                <geom size="0.002 0.28 0.03" type="box" mass="300" pos="0.250 0.23 -0.03" material="tray_mat"></geom>
+                <geom size="0.002 0.28 0.03" type="box" mass="300" pos="-0.250 0.23 0.01" material="tray_mat"></geom>
+            </body>
+		</body>
+		
+		<body name="object0" pos=".114 0.75 0.42">
+			<joint name="object0:joint" type="free" damping="0.01"></joint>
+			<geom size="0.015 0.015 0.015" type="box" rgba="0 0 0 1" condim="3" name="object0" mass="100000" material="block_mat"></geom>
+			<site name="object0" pos="0 0 0" size="0.02 0.02 0.02" rgba="1 0 0 0" type="sphere"></site>
+		</body>
+
+		<body name="B01" pos="1.14 0.75 0.42">
+		    <!-- <freejoint name='bean'/> -->
+		    <composite type="rope" count="15 1 1" spacing="0.03" offset="0 0 1">
+		    	<!-- <joint kind="main" damping=".005"/> -->
+		    	<joint kind="main" damping=".005" limited="true" range="-0.176 0.176" />
+		        <!-- <joint kind="main" range="-0.001 0.001" stiffness=".8" damping=".8" solreffix="-0.05 -1"/> -->
+		        <!-- <joint kind="main" axis="1 0 0" damping="0.001" name="push_block_slide0" pos="0 0 0" type="slide"/> -->
+		        <geom type="capsule" size=".01 .01" rgba="0.7 0.3 0 1" mass="20" contype="0" conaffinity="1"/>
+		    </composite>
+		</body>
+
+		<!-- <body name = "B01"  pos="1.14 0.65 0.42">
+			<joint type="ball" pos="0.075 0.020 0"></joint>
+			<geom type="capsule" size="0.005 0.01" rgba=".8 .2 .1 1" mass="0.0001" pos="0.090 0.020 0" euler="0 1.5708 0"/>
+			<body>
+			<joint type="ball" pos="0.105 0.020 0"></joint>
+			<geom type="capsule" size="0.005 0.01" rgba=".8 .2 .1 1" mass="0.0001" pos="0.12 0.020 0" euler="0 1.5708 0"/>
+			<body>
+			<joint type="ball" pos="0.135 0.020 0"></joint>
+			<geom type="capsule" size="0.005 0.01" rgba=".8 .2 .1 1" mass="0.0001" pos="0.15 0.020 0" euler="0 1.5708 0"/>
+			<body>
+			<joint type="ball" pos="0.165 0.020 0"></joint>
+			<geom type="capsule" size="0.005 0.01" rgba=".8 .2 .1 1" mass="0.0001" pos="0.18 0.020 0" euler="0 1.5708 0"/>
+			<body>
+			<joint type="ball" pos="0.195 0.020 0"></joint>
+			<geom type="capsule" size="0.005 0.01" rgba=".8 .2 .1 1" mass="0.0001" pos="0.21 0.020 0" euler="0 1.5708 0"/>
+			<body>
+			<joint type="ball" pos="0.225 0.020 0"></joint>
+			<geom type="capsule" size="0.005 0.01" rgba=".8 .2 .1 1" mass="0.0001" pos="0.24 0.020 0" euler="0 1.5708 0"/>
+			<body>
+			<joint type="ball" pos="0.255 0.020 0"></joint>
+			<geom type="capsule" size="0.005 0.01" rgba=".8 .2 .1 1" mass="0.0001" pos="0.27 0.020 0" euler="0 1.5708 0"/>
+			<body>
+			</body>
+			</body>
+			</body>
+			</body>
+			</body>
+			</body>
+			</body>
+			</body> -->
+
+		<!-- <body name="B10">
+			<joint type="ball" pos="1.075 0.7 0.5"></joint>
+			<geom type="capsule" size="0.005 0.01" rgba=".8 .2 .1 1" mass="0.0001" pos="1.090 0.7 0.5" euler="0 1.5708 0"/>
+			<body>
+				<joint type="ball" pos="1.105 0.7 0.5"></joint>
+				<geom type="capsule" size="0.005 0.01" rgba=".8 .2 .1 1" mass="0.0001" pos="1.12 0.7 0.5" euler="0 1.5708 0"/>
+				<body>
+					<joint type="ball" pos="0.135 0.7 0.5"></joint>
+					<geom type="capsule" size="0.005 0.01" rgba=".8 .2 .1 1" mass="0.0001" pos="0.15 0.7 0.5" euler="0 1.5708 0"/>
+					<body>
+						<joint type="ball" pos="0.165 0.7 0.5"></joint>
+						<geom type="capsule" size="0.005 0.01" rgba=".8 .2 .1 1" mass="0.0001" pos="0.18 0.7 0.5" euler="0 1.5708 0"/>
+						<body>
+							<joint type="ball" pos="0.195 0.7 0.5"></joint>
+							<geom type="capsule" size="0.005 0.01" rgba=".8 .2 .1 1" mass="0.0001" pos="0.21 0.7 0.5" euler="0 1.5708 0"/>
+							<body>
+								<joint type="ball" pos="0.225 0.7 0.5"></joint>
+								<geom type="capsule" size="0.005 0.01" rgba=".8 .2 .1 1" mass="0.0001" pos="0.24 0.7 0.5" euler="0 1.5708 0"/>
+								<body>
+									<joint type="ball" pos="0.255 0.7 0.5"></joint>
+									<geom type="capsule" size="0.005 0.01" rgba=".8 .2 .1 1" mass="0.0001" pos="0.27 0.7 0.5" euler="0 1.5708 0"/>
+									<body>
+									</body>
+								</body>
+							</body>
+						</body>
+					</body>
+				</body>
+			</body>
+		</body> -->
+
+		<!-- <include file="maze_blocks.xml"></include> -->
+
+		<light directional="true" ambient="0.2 0.2 0.2" diffuse="0.8 0.8 0.8" specular="0.3 0.3 0.3" castshadow="false" pos="0 0 4" dir="0 0 -1" name="light0"></light>
+	</worldbody>
+
+	<!-- <equality>
+        <connect body1="B01" body2="object0" anchor="0 0 0" solimp="0.9 0.95 0.001" solref="0.02 1" ></connect>
+    </equality> -->
+
+	<actuator>
+		<position ctrllimited="true" ctrlrange="0 0.2" joint="robot0:l_gripper_finger_joint" kp="30000" name="robot0:l_gripper_finger_joint" user="1"></position>
+		<position ctrllimited="true" ctrlrange="0 0.2" joint="robot0:r_gripper_finger_joint" kp="30000" name="robot0:r_gripper_finger_joint" user="1"></position>
+	</actuator>
+</mujoco>
