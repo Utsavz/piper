@@ -79,29 +79,29 @@ Here we provide the success rate performance results for various environments:
   #### Maze navigation environment
 
   <p align="center">
-    <img src="figs/maze_success_rate.png" width="500">
+    <img src="figs/maze_success_rate.png" width="400">
   </p>
 
   #### Pick and place environment
 
   <p align="center">
-    <img src="figs/pick_success_rate.png" width="500">
+    <img src="figs/pick_success_rate.png" width="400">
   </p>
 
   #### Push environment
 
   <p align="center">
-    <img src="figs/push_success_rate.png" width="500">
+    <img src="figs/push_success_rate.png" width="400">
   </p>
 
   #### Hollow environment
 
   <p align="center">
-    <img src="figs/hollow_success_rate.png" width="500">
+    <img src="figs/hollow_success_rate.png" width="400">
   </p>
 
   #### Franka kitchen environment
 
   <p align="center">
-    <img src="figs/kitchen_success_rate.png" width="500">
+    <img src="figs/kitchen_success_rate.png" width="400">
   </p>
